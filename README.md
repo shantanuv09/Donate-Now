@@ -27,3 +27,40 @@
 | **Wallet**          | MetaMask Integration       |
 
 ---
+
+### 🧩 Functions
+
+- `createCampaign(name, recipient, goal)`
+  - Admin-only: Creates a new campaign.
+- `donate(campaignId)`
+  - Public: Allows users to donate ETH to a campaign.
+- `releaseFunds(campaignId)`
+  - Admin-only: Releases funds to recipient if the goal is met.
+- `getCampaignDetails(campaignId)`
+  - Returns campaign info (name, goal, amount raised, completion status).
+
+### 🔐 Security Measures
+
+- `onlyOwner` modifier for admin-only actions
+- Prevents fund re-release with `isCompleted` flag
+- Tracks donations by storing donor address, amount, and timestamp
+
+---
+
+## 🧑‍💼 User Roles & Features
+
+### 👤 Donor
+- Browse campaigns
+- Donate via MetaMask
+- View donation history
+
+### 🧑‍💼 Organizer
+- Submit campaigns for approval
+- Track fundraising progress
+
+### 🛡 Admin
+- Approve or reject campaigns
+- Release funds on goal achievement
+- View all users and donations
+
+---
