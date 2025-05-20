@@ -36,7 +36,7 @@
 
 ---
 
-## 🧑‍💼 User Roles & Features
+## 👨‍👦‍👦 User Roles & Features
 
 ### 👤 Donor
 - Browse campaigns
@@ -47,7 +47,7 @@
 - Submit campaigns for approval
 - Track fundraising progress
 
-### 🛡 Admin
+### 👨🏻‍💻 Admin
 - Approve or reject organizer joining requests
 - Approve or reject campaigns
 - View all users and donations
