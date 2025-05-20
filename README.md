@@ -8,7 +8,6 @@
 - 🔗 Transparent and traceable contributions
 - 👛 MetaMask wallet integration for ETH donations
 - 🧾 Verified campaigns approved by admin before fundraising
-- 🔄 Smart fund release upon campaign success
 - 📊 Campaign progress with live tracking
 
 ---
@@ -30,20 +29,10 @@
 
 ### 🧩 Functions
 
-- `createCampaign(name, recipient, goal)`
-  - Admin-only: Creates a new campaign.
-- `donate(campaignId)`
-  - Public: Allows users to donate ETH to a campaign.
-- `releaseFunds(campaignId)`
-  - Admin-only: Releases funds to recipient if the goal is met.
-- `getCampaignDetails(campaignId)`
-  - Returns campaign info (name, goal, amount raised, completion status).
-
-### 🔐 Security Measures
-
-- `onlyOwner` modifier for admin-only actions
-- Prevents fund re-release with `isCompleted` flag
-- Tracks donations by storing donor address, amount, and timestamp
+- `Login/Signup`
+- `Organizer Account / Campaigns Approval (Admin Only)`
+- `Campaign Creation (Organizers only)`
+- `Campaign Donation (Donor Only)`
 
 ---
 
@@ -59,8 +48,8 @@
 - Track fundraising progress
 
 ### 🛡 Admin
+- Approve or reject organizer joining requests
 - Approve or reject campaigns
-- Release funds on goal achievement
 - View all users and donations
 
 ---
