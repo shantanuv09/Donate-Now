@@ -49,7 +49,7 @@
 
 This project empowers developers to build trustworthy, blockchain-backed fundraising solutions. The core features include:
 
-- 🎯 **🔒 Security & Transparency:** Blockchain smart contracts ensure tamper-proof donation handling and fund disbursement.
+- 🔒 **Security & Transparency:** Blockchain smart contracts ensure tamper-proof donation handling and fund disbursement.
 - 🦄 **Seamless Contributions:** Users can contribute ETH effortlessly through MetaMask integration.
 - 📊 **Real-Time Tracking:** Campaign progress and donation metrics are updated instantly for full transparency.
 - 🎨 **Modern UI Components:** Tailwind CSS and modular components provide a consistent, attractive user experience.
