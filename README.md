@@ -38,7 +38,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Testing](#testing)
 
 ---
 
@@ -80,3 +79,11 @@ cd Donate-Now
 
 # Install the dependencies
 npm install
+```
+### Usage
+
+Run the project with:
+
+``` bash
+npm start
+```
